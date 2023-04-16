@@ -54,15 +54,18 @@ form input.operator{
     .container{
         width: 100%;
         max-height: 100vh;
-        margin-top: -20px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+       
     }
     .calculator{
-        padding: 5px;
+        padding: 3px;
     }
     .calculator form input{
         width: 30px;
         height: 30px;
-        font-size: 15px;
+        font-size: 13px;
         margin: 4px;
         box-shadow: -8px -8px 15px rgba(255, 255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
     }
